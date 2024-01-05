@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-web-app"
+  annotations:
+    github.com/project-slug: devopsbeacon/test12345
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/ms"
